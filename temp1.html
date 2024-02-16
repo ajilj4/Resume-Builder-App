@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- divinectorweb.com -->
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Resume website html css</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/temp1.css">
+</head>
+<body>    
+    <div class="container">
+      <div class="header">
+        <div class="img-area">
+            <img src="https://images.pexels.com/photos/3823495/pexels-photo-3823495.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        </div>
+        <h1 id="tname">Jason Holder</h1>
+        <h3 id="job">Full-Stack Web Developer</h3>
+      </div>
+
+      <div class="main">
+        <div class="left">
+          <h2>Personal Information</h2>
+          <p><strong>Name:</strong><span id="name">Jason Holder</span> </p>
+          <p><strong>Age:</strong><span id="ages">30</span> </p>
+          <p><strong>Email:</strong> <span id="user_email">jholder@email.com</span></p>
+          <p><strong>Phone:</strong> <span id="phone_no">000 000 0000</span></p>
+          <h2>Skills</h2>
+          <ul >
+            <li id="skill1"></li>
+            <li id="skill2"></li>
+            <li id="skill3"></li>
+            <li id="skill4"></li>
+            <li id="skill5"></li>
+          </ul>
+          <h2>Education</h2>
+          <h3 id="level1">B.Sc in Computer Science</h3>
+          <p><span id="institute1">University of XYZ</span>, <span id="year1">2014-2018</span></p> <br>
+          <h3 id="level2">M.Sc in Computer Science</h3>
+          <p><span id="institute2">University of XYZ</span>,<span id="year2">2019-2020</span> </p>
+        </div>
+        
+        <div class="right">
+          <h2>Work Experience</h2>
+          <h3 id="company1">XYZ Company</h3>
+          <p><strong>Position:</strong><span id="role1">Software Developer</span> </p>
+          <p><strong>Duration:</strong><span id="year1">2018-2022</span> </p>
+          <ul>
+            <li>Developed and maintained web applications using React, Node.js, and SQL</li>
+            <li>Implemented responsive design using CSS flexbox and media queries</li>
+            <li>Collaborated with cross-functional teams to deliver high-quality software products</li>
+          </ul> <br>
+          <h3 id="company2">ABC Company</h3>
+          <p><strong>Position:</strong> <span id="role2">Web Developer</span></p>
+          <p><strong>Duration:</strong><span id="year2">2016-2018</span> </p>
+          <ul>
+            <li>Created and maintained websites using HTML, CSS, and JavaScript</li>
+            <li>Optimized website performance and user experience using best practices</li>
+            <li>Worked with clients to understand their needs and deliver custom solutions</li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+    <button type="button" onclick="prnt()" id="hidebtn" style="padding: 10px 50px; background-color: green;margin: 50px 35%;color: white;font-size: larger;">Print</button>
+</body>
+<script src="js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script>
+  getid()
+</script>
+</html>
+

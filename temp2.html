@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>How to create the Resume Template Design Using HTML and CSS</title>
+	<link rel="stylesheet" type="text/css" href="css/temp2.css">
+	<script src="https://kit.fontawesome.com/3ef3559250.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<section class="resume">
+	<div class="resume_left">
+	    <div class="r_profile_pic">
+	      <img src="https://i.imgur.com/x3omKbe.png" alt="profile_pic">
+	    </div>
+	    <div class="r_left_sub">
+	      <div class="r_aboutme">
+	        <h2>About me</h2>
+	        <p id="detail">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa earum optio id iure reprehenderit accusamus quisquam accusantium nulla? Dolorum ipsa sed perspiciatis nemo aliquam quibusdam, alias quae totam nulla nihil.</p>
+	      </div>
+	      <div class="r_skills">
+	        <h2>Skills</h2>
+	        <ul>
+	          <li>
+	            <p><i class="fa-solid fa-code"></i></p>
+	            <p id="skill1">Web Development</p>
+	          </li>
+	          <li>
+	            <p><i class="fa-solid fa-pen-nib"></i></p>
+	            <p id="skill2">Web Designing</p>
+	          </li>
+	          <li>
+	            <p><i class="fa-solid fa-video"></i></p>
+	            <p id="skill3">Video Editing</p>
+	          </li>
+	          <li>
+	            <p><i class="fa-solid fa-headphones"></i></p>
+	            <p id="skill4">Sound Mixing</p>
+	          </li>
+	          <li>
+	            <p><i class="fa-solid fa-image"></i></p>
+	            <p id="skill5">Photoshop Editing</p>
+	          </li>
+	        </ul>
+	      </div>
+	      <div class="r_hobbies">
+	        <h2>Hobbies</h2>
+	        <ul>
+	          <li>
+	            <p><i class="fa-solid fa-football"></i></p>
+	          </li>
+	          <li>
+	            <p><i class="fa-solid fa-plant-wilt"></i></p>
+	          </li>
+	          <li>
+	            <p><i class="fa-solid fa-book"></i></p>
+	          </li>
+	          <li>
+	            <p><i class="fa-solid fa-bicycle"></i></p>
+	          </li>
+	          <li>
+	            <p><i class="fa-solid fa-chess"></i></p>
+	          </li>
+	        </ul>
+	      </div>
+	    </div>
+	</div>
+	<div class="resume_right">
+	    <div class="r_namerole">
+	      <p id="tname">Alexander</p>
+	      <!-- <p>Wood</p> -->
+	      <p class="role" id="job">Web Developer</p>
+	    </div>
+	    <div class="r_info">
+	      <ul>
+	        <li>
+	          <p id="user_email">alexwood@gmail.com</p>
+	        </li>
+	        <li>
+	          <p id="phone_no">+15 120 5677684</p>
+	        </li>
+	      </ul>
+	    </div>
+	    <div class="r_right_sub">
+	      <div class="r_education">
+	        <h2>Education</h2>
+	        <ul>
+	          <li>
+	            <div class="r_ed_left">
+	              <p id="year1">2010-2013</p>
+	            </div>
+	            <div class="r_ed_right">
+	              <p id="institute1">Web Masters College</p>
+	              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa earum optio id iure reprehenderit</p>
+	            </div>
+	          </li>
+	          <li>
+	            <div class="r_ed_left">
+	              <p id="year2">2013-2017</p>
+	            </div>
+	            <div class="r_ed_right">
+	              <p id="institute2">Web Designing College</p>
+	              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa earum optio id iure reprehenderit</p>
+	            </div>
+	          </li>
+	          <li>
+	            <div class="r_ed_left">
+	              <p id="year3">2017-2018</p>
+	            </div>
+	            <div class="r_ed_right">
+	              <p id="institute3">Video Designing College</p>
+	              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa earum optio id iure reprehenderit</p>
+	            </div>
+	          </li>
+	        </ul>
+	      </div>
+	      <div class="r_jobs">
+	        <h2>Work Experience</h2>
+	        <ul>
+	          <li>
+	            <div class="r_ed_left">
+	              <p id="year1">2015-2017</p>
+	            </div>
+	            <div class="r_ed_right">
+	              <p id="company1">Google</p>
+	              <p id="role1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa earum optio id iure reprehenderit</p>
+	            </div>
+	          </li>
+	          <li>
+	            <div class="r_ed_left">
+	              <p id="year2">2017-2019</p>
+	            </div>
+	            <div class="r_ed_right">
+	              <p id="company2">Facebook</p>
+	              <p id="role2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa earum optio id iure reprehenderit</p>
+	            </div>
+	          </li>
+	          <li>
+	            <div class="r_ed_left">
+	              <p id="year3">2019-2022</p>
+	            </div>
+	            <div class="r_ed_right">
+	              <p id="company3">Instagram</p>
+	              <p id="role3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa earum optio id iure reprehenderit</p>
+	            </div>
+	          </li>
+	        </ul>
+	      </div>
+	    </div>
+	</div>
+</section>
+<button type="button" onclick="prnt()" id="hidebtn" style="padding: 10px 50px; background-color: green;margin: 50px 35%;color: white;font-size: larger;">Print</button>
+
+</body>
+<script src="js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script>
+    getid()
+</script>
+</html> 

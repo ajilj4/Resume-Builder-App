@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    margin: 0 15%;
+    background-color: rgb(203, 241, 253);
+}
+#box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+aside{
+    width: 30%;
+    min-height: 1100px;
+    background-color: rgb(231, 248, 242);
+}
+img{
+    width: 70%;
+    margin: 10% 15% ;
+    border-radius: 50%;
+    justify-content: center;
+}
+aside h3{
+    font-size: small;
+    background-color: rgb(145, 20, 61);
+    color: white;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px;
+    padding: 5px 0;
+    margin-bottom: 10%;
+}  
+aside p,li{
+    padding-bottom: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+aside input,textarea{
+    width: 80%;
+    padding-left: 5%;
+    margin-left: 5%;
+    border: none;
+    background-color: rgb(231, 248, 242);
+}
+aside textarea{
+    width: 80%;
+    background-color: rgb(231, 248, 242);
+}
+p .material-icons{
+   font-size: 20px;
+   /* margin-top: 2px; */
+} 
+#icon1{
+    margin-top: 25px;
+}
+.edu p{
+    padding-left: 1% ;
+    
+}
+.edu,.skils,.lag h3{
+    margin-top: 11%;
+}
+aside li{
+    margin-left: 16%;
+    margin-right: 60px;
+}
+main{
+    width: 70%;
+    min-height: 1100px;
+    background-color: rgb(203, 241, 253);
+    margin: 7% 0 0 3%;
+}
+#name{
+    font-size: 4vw;
+    color: black;
+}
+#jobname{
+    padding-top: -5px;
+}
+main h3{
+    margin-top: 16%;
+    font-size: medium;
+    color: rgb(6, 5, 5);
+    margin-bottom: 5%;
+}
+
+.obj{
+    font-size: 20px;
+    display: block;
+}
+
+
+.up{
+    margin-top: 5%;
+    font-size: 12px;
+}
+main textarea{
+    width: 70%;
+    background-color: rgb(203, 241, 253);
+}
+.line{
+    text-decoration-line: line;
+    width: 30%;
+}
+/* .footer{ */
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+/* } */
+input,textarea{
+    width: 40%;
+    border: 0;
+    color: black;
+    background-color: rgb(203, 241, 253);
+}
+.footer input{
+    width: 50%;
+    display: inline-block;
+    background-color: rgb(203, 241, 253);
+}
+.footer p{
+    padding: 3px;
+}
+.footer input:hover{
+    border-left: 2px solid black;
+}
+.design input{
+    padding-left: -30px;
+}
